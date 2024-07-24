@@ -1,7 +1,7 @@
 
-dependencies:
-  - https://github.com/mnevadom/go-getting-started
 
+deploy: 
+  - echo APP_BUILD=${OKTETO_BUILD_GOAPP_IMAGE} >> ${OKTETO_ENV}
 
 build: 
   goapp: 
