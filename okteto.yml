@@ -2,7 +2,6 @@
 
 deploy: 
   - echo APP_BUILD=${OKTETO_BUILD_GOAPP_IMAGE} > ${OKTETO_ENV}
-  - printenv APP_BUILD
 
 build: 
   goapp: 
